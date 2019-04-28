@@ -5,3 +5,8 @@ opens the app, select his location and marks his attendance.
 
 Play Store Link-  https://play.google.com/store/apps/details?id=com.klal.www.techteamk&hl=en.
 
+Demo video-
+
+![K LAL Demo](https://user-images.githubusercontent.com/43908140/56864881-81f11b00-69e5-11e9-95a8-1edeff9d8f51.gif)
+
+
