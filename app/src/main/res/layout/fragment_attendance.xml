@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AttendanceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/sayPresent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="Mark new Attendance"
+        android:alpha="1"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last 7 days attendance record"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:id="@+id/date1"
+                android:text="Date 1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat1"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date2"
+                android:text="Date 2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat2"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date3"
+                android:text="Date 3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat3"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date4"
+                android:text="Date 4"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat4"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date5"
+                android:text="Date 5"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat5"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date6"
+                android:text="Date 6"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat6"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:id="@+id/date7"
+                android:text="Date 7"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/stat7"
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+        <TableRow>
+            <TextView
+                android:text="Today"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:text="Present"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+    </TableLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/pdfAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brick"
+        android:text="See Complete Register"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

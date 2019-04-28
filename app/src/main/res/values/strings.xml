@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TechTeamK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Avengers">
+        <item>TonyStark</item>
+        <item>RogersSteve</item>
+        <item>NatashaRomonaff</item>
+        <item>Suri</item>
+        <item>Tchalla</item>
+        <item>Doctor Strange</item>
+        <item>DoctorBanner</item>
+        <item>WandaMaximoff</item>
+        <item>PietroMaximoff</item>
+        <item>Barton</item>
+        <item>Wang</item>
+        <item>AncientOne</item>
+        <item>TonyStark</item>
+        <item>RogersSteve</item>
+        <item>NatashaRomonaff</item>
+        <item>Suri</item>
+        <item>Tchalla</item>
+        <item>Doctor Strange</item>
+        <item>DoctorBanner</item>
+        <item>WandaMaximoff</item>
+        <item>PietroMaximoff</item>
+        <item>Barton</item>
+        <item>Wang</item>
+        <item>AncientOne</item>
+    </string-array>
+</resources>
